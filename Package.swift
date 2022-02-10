@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "PhoneNumberKit",
-    platforms: [.iOS(.v13)],
+    platforms: [.iOS(.v14)],
     products: [
         .library(
             name: "PhoneNumberKit",
