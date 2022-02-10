@@ -1,11 +1,8 @@
-![PhoneNumberKit](https://cloud.githubusercontent.com/assets/889949/20864386/a1307950-b9ef-11e6-8a58-e9c5103738e7.png)
-[![Platform](https://img.shields.io/cocoapods/p/PhoneNumberKit.svg?maxAge=2592000)](http://cocoapods.org/?q=PhoneNumberKit)
-[![Build Status](https://travis-ci.org/marmelroy/PhoneNumberKit.svg?branch=master)](https://travis-ci.org/marmelroy/PhoneNumberKit) [![Version](http://img.shields.io/cocoapods/v/PhoneNumberKit.svg)](http://cocoapods.org/?q=PhoneNumberKit)
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+# WARNING ⚠️
+This is a silly fork tagetting iOS 13 minimum with a more modern SPM structure. Please consider using the original from [marmelroy instead](https://github.com/marmelroy/PhoneNumberKit)
 
 # PhoneNumberKit
-
-Swift 5.3 framework for parsing, formatting and validating international phone numbers.
+Swift 5.5 framework for parsing, formatting and validating international phone numbers.
 Inspired by Google's libphonenumber.
 
 ## Features
@@ -136,30 +133,6 @@ Alternatively, you can also add PhoneNumberKit to your `Package.swift` file:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/marmelroy/PhoneNumberKit", .upToNextMajor(from: "3.3.3"))
+    .package(url: "https://github.com/hmazelier/PhoneNumberKit", .upToNextMajor(from: "3.3.3"))
 ]
-```
-
-### Setting up with Carthage
-
-[Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that automates the process of adding frameworks to your Cocoa application.
-
-You can install Carthage with [Homebrew](http://brew.sh/) using the following command:
-
-```bash
-$ brew update
-$ brew install carthage
-```
-
-To integrate PhoneNumberKit into your Xcode project using Carthage, specify it in your `Cartfile`:
-
-```ogdl
-github "marmelroy/PhoneNumberKit"
-```
-
-### Setting up with [CocoaPods](http://cocoapods.org/?q=PhoneNumberKit)
-
-```ruby
-source 'https://github.com/CocoaPods/Specs.git'
-pod 'PhoneNumberKit', '~> 3.3'
 ```

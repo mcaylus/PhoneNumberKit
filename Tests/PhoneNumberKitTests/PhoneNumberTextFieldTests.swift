@@ -6,8 +6,6 @@
 //  Copyright © 2019 Roy Marmelstein. All rights reserved.
 //
 
-#if canImport(UIKit)
-
 @testable import PhoneNumberKit
 import UIKit
 import XCTest
@@ -38,5 +36,3 @@ class PhoneNumberTextFieldTests: XCTestCase {
 		XCTAssertNil(tf.phoneNumber)
 	}
 }
-
-#endif
