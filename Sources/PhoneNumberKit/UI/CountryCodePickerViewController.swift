@@ -107,6 +107,11 @@ public class CountryCodePickerViewController: UITableViewController {
             navigationItem.setRightBarButton(cancelButton, animated: true)
         }
     }
+    
+    public override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        searchController.isActive = true
+    }
 
     public override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
